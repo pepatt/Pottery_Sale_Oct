@@ -1,0 +1,107 @@
+@import './styles/variables';
+* {
+    font-size: $med;
+}
+
+.body {
+    display: flex;
+    background-color: $grey;
+    flex-direction: row;
+}
+.void {
+    display: flex;
+    width: 35%;
+    background-color: $grey;
+}
+
+.article_header{
+    color: $white;
+    width: 100%;
+    background-color: $green;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.article_title {
+    font-weight: bold;
+    font-size: $big;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 60%;
+    overflow-wrap: keep-all;
+}
+.p_wrapper {
+    width: 60%;
+    font-size: $med;
+}
+
+.p1,.p2,.p3,.p4 {
+    padding-bottom: 1rem;
+}
+
+.article_wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.article_body {
+    background-color: $white;
+    flex: 1;
+    padding: 2em;
+}
+.body_header_green {
+    color: $green;
+    font-weight: bold;
+    font-size: $big;
+}
+.body_header {
+    padding-bottom: 1rem;
+    font-size: $med;
+}
+.body_total_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.body_wrapper {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.body_title {
+    padding-bottom: 1rem;
+}
+.cubes_wrapper {
+    display: flex;
+    width: 60%;
+    height: 50%;
+    position: relative;
+}
+.top_cube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 160px;
+    background-color: $green;
+    position: absolute;
+    top: -10px;
+    right: 60px;
+    order: -1;
+}
+.bot_cube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 160px;
+    background-color: $light_green;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    order: 1;
+}
