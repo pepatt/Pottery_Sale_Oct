@@ -4,5 +4,5 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Pottery_Sale_Oct/',
+  base: '/Pottery_Sale_Oct',
 })
